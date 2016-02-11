@@ -1,0 +1,27 @@
+{
+  "name": "jumper423/yii2-webdriver",
+  "description": "Инструмент для работы со сторонними сайтами. Наборы заготовок.",
+  "keywords": ["yii2", "webdriver", "selenium"],
+  "homepage": "https://github.com/jumper423/yii2-webdriver",
+  "type": "project",
+  "license": "Apache License 2.0",
+  "support": {
+    "issues": "https://github.com/jumper423/yii2-webdriver/issues?state=open",
+    "source": "https://github.com/jumper423/yii2-webdriver"
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "*",
+    "facebook/webdriver": "*",
+    "jumper423/yii2-image": "*",
+    "jumper423/yii2-helpers": "*",
+    "jumper423/yii2-captcha": "*"
+  },
+  "config": {
+    "process-timeout": 1800
+  },
+  "autoload": {
+    "psr-4": {"jumper423\\": ""}
+  }
+}
